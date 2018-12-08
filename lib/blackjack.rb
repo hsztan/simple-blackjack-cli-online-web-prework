@@ -1,9 +1,9 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-  # code #deal_card here
+  1 + Math.rand(11)
 end
 
 def display_card_total
@@ -41,4 +41,5 @@ end
 def runner
   # code runner here
 end
-    
+
+deal_card
